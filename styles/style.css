@@ -77,3 +77,21 @@ header nav ul li a:hover
     color: var(--black--clr);
     border-radius: 50%;
 }
+@media screen and (max-width: 1450px)
+{
+    header
+    {
+        padding: 40px;
+    }   
+    header nav ul
+    {
+        gap: 24px;
+    } 
+}
+@media screen and (max-width: 1200px)
+{
+    header.desktop
+    {
+        display: none;
+    }
+}
