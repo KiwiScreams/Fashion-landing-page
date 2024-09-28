@@ -9,3 +9,15 @@
     outline: none;
     transition: 0.3s;
 }
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pointer,
+a,
+button
+{
+    cursor: pointer;
+}
