@@ -117,7 +117,46 @@ header.mobile
 .subscribe-section
 {
     width: 100%;
+    padding: 140px 0;
+    text-align: center;
     background-color: var(--yellow--clr);
+}
+.subscribe-section h2
+{
+    color: var(--white--clr);
+    font-size: var(--font-size-55px);
+    margin-bottom: 36px;
+}
+.subscribe-section p
+{
+    color: var(--white--clr);
+    font-size: var(--font-size-32px);
+    margin-bottom: 50px;
+}
+.subscribe-section .input-container
+{
+    width: 574px;
+    margin: auto;
+    background-color: var(--white--clr);
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    height: 88px;
+}
+.subscribe-section button
+{
+    position: absolute;
+    right: 10px;
+    height: 68px;
+    font-size: var(--font-size-32px);
+}
+.subscribe-section .input-container input
+{
+    width: 80%;
+    font-size: var(--font-size-24px);
 }
 /* SUBSCRIBE SECTION END */
 /* MAIN END */
