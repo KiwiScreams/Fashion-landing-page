@@ -158,6 +158,26 @@ header.mobile
     width: 80%;
     font-size: var(--font-size-24px);
 }
+@media screen and (max-width: 700px)
+{
+    .subscribe-section .input-container
+    {
+        width: 90%;
+    }   
+}
+@media screen and (max-width: 700px)
+{
+    .subscribe-section .input-container
+    {
+        width: 98%;
+    }   
+    .subscribe-section button
+    {
+        padding: 10px;
+        font-size: var(--font-size-22px);
+    }
+
+}
 /* SUBSCRIBE SECTION END */
 /* MAIN END */
 
