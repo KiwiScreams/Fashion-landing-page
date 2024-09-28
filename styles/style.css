@@ -190,6 +190,7 @@ header.mobile {
   background-color: #f4f6f5;
   margin-top: 164px;
   border-radius: 60px;
+  margin-bottom: 60px;
 }
 .layout-section .text-container {
   padding: 70px;
@@ -217,14 +218,44 @@ header.mobile {
 .layout-section .text-container .txt .bg2 {
   background-color: var(--yellow--clr);
 }
-.layout-section p
-{
+.layout-section p {
   font-size: var(--font-size-32px);
   margin: 40px 0;
 }
-.layout-section button
-{
+.layout-section button {
   font-size: var(--font-size-30px);
+}
+@media screen and (max-width: 1000px) {
+  .layout-section .image-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 660px) {
+  .layout-section .text-container h1 {
+    font-size: var(--font-size-55px);
+  }
+  .layout-section .text-container .txt .bg {
+    width: 250px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .layout-section .text-container h1 {
+    font-size: var(--font-size-36px);
+    text-align: center;
+  }
+  .layout-section .text-container .txt .bg {
+    width: 200px;
+    height: 40px;
+    left: 20px;
+  }
+  .layout-section p {
+    text-align: center;
+  }
+  .layout-section button {
+    margin: auto;
+    display: block;
+  }
 }
 /* LAYOUT END */
 /* COMPANIES SECTION START */
