@@ -7,9 +7,11 @@ function checkEmail() {
     errorMessage.textContent = "Invalid email address";
   } else {
     emailInput.value = "Success!";
+    emailInput.style.color = "green";
     errorMessage.textContent = "";
     setTimeout(() => {
       emailInput.value = "";
+      emailInput.style.color = "";
     }, 2000);
   }
 }

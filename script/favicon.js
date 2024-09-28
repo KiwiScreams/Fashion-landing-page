@@ -5,3 +5,4 @@ const changeFavicon = () => {
   else faviconTag.href = "./assets/images/logo.svg";
 };
 changeFavicon();
+isDark.addEventListener("change", changeFavicon);
