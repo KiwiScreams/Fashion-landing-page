@@ -53,8 +53,8 @@ button {
 header {
   width: 100%;
   padding: 40px 100px;
-  background-color: red;
   position: fixed;
+  background-color: var(--yellow--clr);
     top: 0;
     left: 0;
     right: 0;
@@ -183,6 +183,44 @@ header.mobile {
   }
 }
 /* SUBSCRIBE SECTION END */
+/* COMPANIES SECTION START */
+.companies
+{
+    width: 100%;
+    padding: 60px 0;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    background-color: var(--yellow--clr);
+}
+.companies-section
+{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    background-color: var(--yellow--clr);
+    flex-wrap: wrap;
+}
+.companies-section img
+{
+    margin: auto;
+}
+@media screen and (max-width: 800px)
+{
+    .companies-section
+    {
+        gap: 20px;
+    }  
+}
+@media screen and (max-width: 450px)
+{
+    .companies-section
+    {
+        gap: 10px;
+    }  
+}
+/* COMPANIES SECTION END */
 /* MAIN END */
 
 /* FOOTER START */
@@ -216,6 +254,16 @@ footer .footer-left-container a {
   align-items: center;
   width: 52px;
   height: 52px;
+  border: 3px solid var(--yellow--clr);
+}
+footer .footer-left-container a:hover
+{
+    background-color: transparent;
+}
+footer .footer-left-container a:hover img
+{
+    background-color: transparent;
+    filter: invert(100%);
 }
 footer a img {
   height: 20px;
