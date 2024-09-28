@@ -47,8 +47,13 @@
         </h2>
         <p>Type your email down below and be young wild generation</p>
         <div class="input-container">
-            <input type="text" name="" id="" placeholder="Add your email here">
-            <button class="black-btn">SEND</button>
+          <input
+            type="text"
+            id="email-input"
+            placeholder="Add your email here"
+          />
+          <button class="black-btn" onclick="checkEmail()">SEND</button>
+          <span id="error-message"></span>
         </div>
       </section>
     </main>
@@ -93,5 +98,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./script/app.js"></script>
   </body>
 </html>
