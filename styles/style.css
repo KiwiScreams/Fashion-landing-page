@@ -54,10 +54,11 @@ header {
   width: 100%;
   padding: 40px 100px;
   background-color: red;
-  /* position: fixed;
+  position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
+    z-index: 10;
 }
 header nav ul {
   gap: 64px;
