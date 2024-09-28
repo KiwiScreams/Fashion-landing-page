@@ -7,6 +7,7 @@ function checkEmail() {
     errorMessage.textContent = "Invalid email address";
   } else {
     emailInput.value = "Success!";
+    errorMessage.textContent = "";
     setTimeout(() => {
       emailInput.value = "";
     }, 2000);
