@@ -121,6 +121,12 @@ footer
 {
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black--clr);
+    width: 100%;
+    padding: 110px;
 }
 footer .footer-left-container img.logo
 {
@@ -138,7 +144,7 @@ footer .social-icons-container
     gap: 14px;
     margin-top: 32px;
 }
-footer a
+footer .footer-left-container a
 {
     border-radius: 15px;
     padding: 16px;
@@ -153,5 +159,27 @@ footer a img
 {
     height: 20px;
     background-color: var(--yellow--clr);
+}
+footer .footer-right-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 190px;
+}
+footer .footer-right-container ul
+{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+footer .footer-right-container ul li
+{
+    color: var(--white--clr);
+    font-size: var(--font-size-24px);
+}
+footer .footer-right-container ul li a
+{
+    color: var(--gray--clr);
+    font-size: var(--font-size-24px);
 }
 /* FOOTER END */
