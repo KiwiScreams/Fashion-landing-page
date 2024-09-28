@@ -9,6 +9,16 @@
     outline: none;
     transition: 0.3s;
 }
+:root
+{
+    /* bg-COLOURS */
+    --white--clr: #fff;
+    --black--clr: #000;
+    --yellow--clr: #EBD96B;
+    /* text-COLOURS */
+    --gray--clr: #7F7F7F;
+
+}
 .flex
 {
     display: flex;
