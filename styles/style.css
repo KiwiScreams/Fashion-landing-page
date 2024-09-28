@@ -40,6 +40,7 @@ button
 {
     cursor: pointer;
 }
+/* HEADER START */
 header
 {
     width: 100%;
@@ -108,3 +109,12 @@ header.mobile
         background: blue;
     }
 }
+/* HEADER END */
+
+
+/* MAIN START */
+/* MAIN END */
+
+
+
+/* FOOTER END */
