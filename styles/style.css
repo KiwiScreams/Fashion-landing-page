@@ -15,6 +15,7 @@
     --white--clr: #fff;
     --black--clr: #000;
     --yellow--clr: #E6C744;
+    --red--clr: red;
     /* text-COLOURS */
     --gray--clr: #C2C8DA;
     /* FONT SIZE */
@@ -160,7 +161,7 @@ header.mobile
 }
 .subscribe-section .input-container #error-message
 {
-    color: red;
+    color: var(--red--clr);
     font-size: var(--font-size-22px);
     position: absolute;
     bottom: 0;
