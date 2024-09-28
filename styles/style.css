@@ -54,7 +54,7 @@ header {
   width: 100%;
   padding: 40px 100px;
   position: fixed;
-  background-color: var(--yellow--clr);
+  background-color: var(--white--clr);
     top: 0;
     left: 0;
     right: 0;
@@ -183,6 +183,14 @@ header.mobile {
   }
 }
 /* SUBSCRIBE SECTION END */
+/* LAYOUT */
+.layout-section
+{
+  width: 100%;
+  background-color: var(--gray--clr);
+  margin-top: 164px;
+}
+/* LAYOUT END */
 /* COMPANIES SECTION START */
 .companies
 {
