@@ -40,3 +40,28 @@ button
 {
     cursor: pointer;
 }
+header
+{
+    width: 100%;
+    padding: 40px 100px;
+    background-color: red;
+}
+header nav ul
+{
+    gap: 64px;
+}
+header nav ul li a
+{
+    color: var(--black--clr);
+    font-size: var(--font-size-22px);
+    font-weight: lighter;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+.black-btn
+{
+    background-color: var(--black--clr);
+    color: var(--white--clr);
+    border-radius: 7px;
+    padding: 14px 20px;
+}
