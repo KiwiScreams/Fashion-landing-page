@@ -187,7 +187,7 @@ header.mobile {
 .companies-section
 {
     display: flex;
-    gap: 60px;
+    gap: 120px;
     align-items: center;
     width: fit-content;
     margin: auto;
@@ -198,6 +198,20 @@ header.mobile {
 .companies-section img
 {
     margin: auto;
+}
+@media screen and (max-width: 800px)
+{
+    .companies-section
+    {
+        gap: 20px;
+    }  
+}
+@media screen and (max-width: 450px)
+{
+    .companies-section
+    {
+        gap: 10px;
+    }  
 }
 /* COMPANIES SECTION END */
 /* MAIN END */
