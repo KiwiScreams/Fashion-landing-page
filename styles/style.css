@@ -46,10 +46,10 @@ header
     width: 100%;
     padding: 40px 100px;
     background-color: red;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
 }
 header nav ul
 {
@@ -113,6 +113,13 @@ header.mobile
 
 
 /* MAIN START */
+/* SUBSCRIBE SECTION START */
+.subscribe-section
+{
+    width: 100%;
+    background-color: var(--yellow--clr);
+}
+/* SUBSCRIBE SECTION END */
 /* MAIN END */
 
 
