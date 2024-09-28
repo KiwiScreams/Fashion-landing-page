@@ -184,7 +184,21 @@ header.mobile {
 }
 /* SUBSCRIBE SECTION END */
 /* COMPANIES SECTION START */
-
+.companies-section
+{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    background-color: var(--yellow--clr);
+    margin-top: 500px;
+    flex-wrap: wrap;
+}
+.companies-section img
+{
+    margin: auto;
+}
 /* COMPANIES SECTION END */
 /* MAIN END */
 
