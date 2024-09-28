@@ -45,6 +45,10 @@ header
     width: 100%;
     padding: 40px 100px;
     background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 header nav ul
 {
@@ -77,6 +81,10 @@ header nav ul li a:hover
     color: var(--black--clr);
     border-radius: 50%;
 }
+header.mobile
+{
+    display: none;
+}
 @media screen and (max-width: 1450px)
 {
     header
@@ -93,5 +101,10 @@ header nav ul li a:hover
     header.desktop
     {
         display: none;
+    }
+    header.mobile
+    {
+        display: flex;
+        background: blue;
     }
 }
